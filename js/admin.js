@@ -7,7 +7,7 @@ import {
 document.addEventListener("click", function (event) {
   let target = event.target;
 
-  //add element
+  //add block
   if (target.matches(".add")) {
     copyFormInput(target.closest(".clone-div"));
 
@@ -16,7 +16,7 @@ document.addEventListener("click", function (event) {
     target.remove();
   }
 
-  //remove element
+  //remove block
   if (target.matches(".remove")) {
     //Remove node clicked
     removeNode(target);
