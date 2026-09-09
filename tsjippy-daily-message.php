@@ -5,14 +5,14 @@ namespace TSJIPPY\DAILYMESSAGE;
 /**
  * Plugin Name:          Tsjippy Daily Message
  * Description:          This plugin adds the daily-message post type. Use it to display daily messages on frontend or send thrue e-mail or signal.
- * Version:              10.6.8
+ * Version:              10.6.9
  * Author:               Ewald Harmsen
  * AuthorURI:            harmseninnigeria.nl
  * Requires at least:    6.3
  * Requires PHP:         8.3
- * Tested up to:         7.0
+ * Tested up to:         7.1
  * Plugin URI:           https://github.com/Tsjippy/daily-message
- * Tested:               7.0
+ * Tested:               7.1
  * TextDomain:           tsjippy
  * Requires Plugins:    
  * License: GPLv2 or later
