@@ -10,7 +10,6 @@ namespace TSJIPPY\DAILYMESSAGE;
  * AuthorURI:            harmseninnigeria.nl
  * Requires at least:    6.3
  * Requires PHP:         8.3
- * Tested up to:         7.1
  * Plugin URI:           https://github.com/Tsjippy/daily-message
  * Tested:               7.1
  * TextDomain:           tsjippy
