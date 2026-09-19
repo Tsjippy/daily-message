@@ -13,6 +13,7 @@ function initBlocks()
         'tsjippy-daily-message/show',
         array(
             'title'           => __( 'Daily Message', '%TEXTDOMAIN%' ),
+            'apiVersion' => 3,
             'attributes'      => array(
                 'title'   => array(
                     'label'   => __( 'Title', '%TEXTDOMAIN%' ),
