@@ -2,7 +2,7 @@ import {
   copyFormInput,
   fixNumbering,
   removeNode,
-} from "../../tsjippy-forms/js/form_exports.js";
+} from "@tsjippy/form_exports";
 
 document.addEventListener("click", function (event) {
   let target = event.target;

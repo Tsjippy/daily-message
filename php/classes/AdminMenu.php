@@ -33,7 +33,11 @@ class AdminMenu extends \TSJIPPY\ADMIN\SubAdminMenu
      */
     public function settings($parent)
     {
-        wp_enqueue_script_module('@tsjippy/message_admin', TSJIPPY\pathToUrl(PLUGINPATH . 'js/admin' . TSJIPPY\JSEXTENSION), array('@tsjippy/main'), PLUGINVERSION);
+        $deps   = SCRIPT_DEBUG ? [
+            '@tsjippy/form_exports'
+        ] :
+        [];
+        wp_enqueue_script_module('@tsjippy/message_admin', TSJIPPY\pathToUrl(PLUGINPATH . 'js/admin' . TSJIPPY\JSEXTENSION), $deps, PLUGINVERSION);
 
         ob_start();
 
